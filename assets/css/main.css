@@ -2638,7 +2638,15 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
+	}
+
+	@media screen and (max-width: 480px) {
+
+		section.special, article.special {
+			text-align: center;
+		}
+
 	}
 
 	header.major {
@@ -2836,7 +2844,7 @@ input, select, textarea {
 			.features li span {
 				text-align:center;
 			}
-			
+
 		@media screen and (max-width: 980px) {
 
 			.features li {
