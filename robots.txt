@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://geovolve.nz/sitemap.xml
